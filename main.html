@@ -1,16 +1,36 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        /* CSS Styles */
+        .nav-bar {
+            background-color: #D3D3D3;
+            padding: 10px;
+        }
+
+        .nav-bar ul {
+            list-style: none; /* Removes bullets */
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-bar li {
+            display: inline; /* Displays items horizontally */
+            margin-right: 1rem; /* Adds spacing between items */
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <nav class="nav-bar">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+            <li>Itinerary</li>
+        </ul>
+    </nav>
 </body>
-
 </html>
